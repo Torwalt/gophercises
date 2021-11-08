@@ -1,0 +1,10 @@
+[
+    {
+        "path": "/gc",
+        "url": "https://google.com"
+    },
+    {
+        "path": "/ge",
+        "url": "https://google.de"
+    }
+]
