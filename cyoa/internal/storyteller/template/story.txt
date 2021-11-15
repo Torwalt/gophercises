@@ -1,0 +1,15 @@
+{{.Title}}
+
+{{range .Story}}
+{{.}}
+{{end}}
+
+{{range $i, $a := .Options}}
+
+{{$a.Text}}
+
+-> Go To {{$a.Arc | Titleize}} ({{$i}})
+
+{{end}}
+
+-> Go To Beginning (-1)
